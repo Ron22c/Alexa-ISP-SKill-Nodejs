@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "thor_pack",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Thor Pack",
+        "summary": "The thor pack is a great addition because you will hear facts about thor.",
+        "description": "The thor pack expands the set of facts shared with you to include facts about thor.",
+        "smallIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_small.png",
+        "largeIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_large.png",
+        "examplePhrases": [
+          "buy thor pack"
+        ],
+        "keywords": [
+          "thor"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "The thor pack adds over 10 thor facts into the set of facts randomly chosen to be shared with you.",
+          "boughtCardDescription": "Thanks for purchasing the thor pack.  You now have access to thor facts!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-05-09T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "testingInstructions": "<TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT>",
+  "purchasableState": "PURCHASABLE"
+}

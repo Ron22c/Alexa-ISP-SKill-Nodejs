@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "ironman_pack",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Ironman Pack",
+        "summary": "The Ironman pack is a great addition because you will hear facts about Ironman.",
+        "description": "The Ironman pack expands the set of facts shared with you to include facts about Ironman.",
+        "smallIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_small.png",
+        "largeIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/s_blue_large.png",
+        "examplePhrases": [
+          "buy ironman pack"
+        ],
+        "keywords": [
+          "Ironman"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "The Ironman pack adds over 10 Ironman facts into the set of facts randomly chosen to be shared with you.",
+          "boughtCardDescription": "Thanks for purchasing the Ironman pack.  You now have access to Ironman facts!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-05-09T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "testingInstructions": "<TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT>",
+  "purchasableState": "PURCHASABLE"
+}
